@@ -1,12 +1,10 @@
 # p2p-tracker
 
-A heroku-ready webtorrent tracker for use with P2P applications.
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/draeder/p2p-tracker/tree/master) | [Remix on Glitch](https://glitch.com/edit/#!/remix/p2p-tracker)
+A webtorrent tracker to use with P2P applications.
 
 # Usage
 
-- Deploy to heroku using the button above
-- Or run locally by cloning this repo, then `npm install` => `npm start `
-  - Edit server.js to specify a static port. By default, a random port is used.
+1.  Assign a static url to process.env.`SERVER_URL`
+3. `npm install`
+4. `npm start`
 
