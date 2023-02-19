@@ -1,5 +1,5 @@
 {
-  "name": "p2p-signal-server",
+  "name": "p2p-tracker",
   "version": "1.0.0",
   "description": "A heroku-ready webtorrent tracker for use with P2P applications.",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/draeder/p2p-signal-server.git"
+    "url": "git+https://github.com/ernes/p2p-tracker.git"
   },
   "author": "Daniel Raeder",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/draeder/p2p-signal-server/issues"
+    "url": "https://github.com/ernes/p2p-tracker/issues"
   },
-  "homepage": "https://github.com/draeder/p2p-signal-server#readme",
+  "homepage": "https://github.com/ernes/p2p-tracker#readme",
   "dependencies": {
     "bittorrent-tracker": "^9.16.1",
     "body-parser": "^1.19.0",
