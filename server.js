@@ -1,5 +1,6 @@
 require('dotenv').config()
-console.log('Heroku server URL:', `https://${process.env.SERVER_URL}.herokuapp.com/`)
+
+console.log('Server URL:', `https://${process.env.SERVER_URL}`)
 // Create a web sockets signaling server
 let lookup = {}
 
